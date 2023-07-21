@@ -4,20 +4,21 @@
 #include<conio.h>
 int main()
 {
-  int No=0, i=1;
+  int No=0, i=0;
   printf("\nEnter any number :");
   scanf("%d",&No);
   
-  printf("\nThe table of %d ",No);
-  printf("\n==========");
-  
+  printf("\n=Table of %d=",No);
+     i=1;
      while(i<=10)
     {
-      printf("\n\t %d ",No*i);
+      printf("\n\t\t\t %d ",No*i);
       i++;
     }
     
-   printf("\n=========");
+   printf("\n============");
   getch();
+  return 0;
+};
   return 0;
 }
